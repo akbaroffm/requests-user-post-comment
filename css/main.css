@@ -1,0 +1,21 @@
+.modal-wrapper{
+    position: fixed;
+    inset: 0;
+    backdrop-filter: blur(10px);
+    display: none;
+}
+.modal{
+    position: absolute;
+    width: 50%;
+    padding: 10px;
+    background-color: moccasin;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    margin: 200px 350px;
+}
+.open-modal{
+    position: fixed;
+    inset: 0;
+    backdrop-filter: blur(10px);
+    display: block;
+}
